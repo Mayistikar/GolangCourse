@@ -7,11 +7,11 @@ func main() {
 	name := "Anderson"
 	fmt.Println(name)
 
-	// := Declare an asign a variable
+	// := Declare an assign a variable
 	lastName := "Rodriguez"
 	fmt.Println(lastName)
 
-	// = Reasign a variable's value
+	// = Reassign a variable's value
 	lastName = "Ceron"
 	fmt.Println(lastName)
 }

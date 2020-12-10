@@ -35,4 +35,14 @@ func main() {
 	fmt.Println(newCoords)
 	fmt.Println(newCoords["z"])
 	fmt.Println(newCoords["Z"])
+
+	// Walking for map
+	for k, v := range coords {
+		fmt.Println("key:", k, "value:", v)
+	}
+
+	// Delete key/value from map
+	fmt.Println(coords)
+	delete(coords, "x")
+	fmt.Println(coords)
 }
